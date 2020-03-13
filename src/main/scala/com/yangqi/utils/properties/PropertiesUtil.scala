@@ -15,7 +15,7 @@ class PropertiesUtil {
   /**
    * 通过配置文件名获取配置文件中 key 对应的 value 值
    *
-   * @param key key
+   * @param key       key
    * @param propName 配置文件名
    * @return value
    */
