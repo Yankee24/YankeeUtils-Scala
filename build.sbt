@@ -14,3 +14,6 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.35"
 
 // https://mvnrepository.com/artifact/com.alibaba/druid
 libraryDependencies += "com.alibaba" % "druid" % "1.1.12"
+
+// https://mvnrepository.com/artifact/org.apache.poi/poi
+libraryDependencies += "org.apache.poi" % "poi" % "3.17"
