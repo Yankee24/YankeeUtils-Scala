@@ -23,10 +23,3 @@
 ---
 #### MySQL相关工具类-mysql
 - DruidUtil：通过 alibaba 的 druid 连接 mysql 数据库
-- IResultSetHandler：结果集结果，方便以后进行扩展
-- BeanHandler：对结果集进行封装
-- JDBCTemplateUtil：DML 和 DQL 模板工具，使用时只需要传入相应的 sql 字符串和对应的参数即可，在使用 DQL 时调用方式如下：
-    ```$java
-    String sql = "select deptno, dname, loc from dept where deptno = ?";
-    System.out.println(Objects.requireNonNull(JDBCTemplateUtil.query(sql, new BeanHandler<>(Bean.class), 10)).get(0));
-    ```
