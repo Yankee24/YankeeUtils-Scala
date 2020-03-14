@@ -38,7 +38,7 @@ class DateFormatUtil {
   /**
    * String parse to your format date.
    *
-   * @param date             the date
+   * @param date             the date of string
    * @param simpleDateFormat the simple date format
    * @return the date
    */
@@ -65,7 +65,7 @@ class DateFormatUtil {
   /**
    * String parse to yyyyMM date.
    *
-   * @param date the date
+   * @param date the date of string
    * @return the date
    */
   def parseToDate1(date: String): Date = {
@@ -91,7 +91,7 @@ class DateFormatUtil {
   /**
    * String parse to yyyy-MM date.
    *
-   * @param date the date
+   * @param date the date of string
    * @return the date
    */
   def parseToDate2(date: String): Date = {
@@ -117,7 +117,7 @@ class DateFormatUtil {
   /**
    * String parse to yyyy年MM月 date.
    *
-   * @param date the date
+   * @param date the date of string
    * @return the date
    */
   def parseToDate3(date: String): Date = {

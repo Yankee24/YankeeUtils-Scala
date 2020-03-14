@@ -56,6 +56,7 @@ class LocalDateTimeUtil {
    * @return the month
    */
   def monthBetween(early: String, late: String, dateTimeFormatter: DateTimeFormatter) {
+    // 时间格式转换
     val earlyDate: LocalDateTime = LocalDateTimeFormatUtil.parseToLocalDateTime(early, dateTimeFormatter)
     val lateDate: LocalDateTime = LocalDateTimeFormatUtil.parseToLocalDateTime(late, dateTimeFormatter)
     monthBetween(earlyDate, lateDate)

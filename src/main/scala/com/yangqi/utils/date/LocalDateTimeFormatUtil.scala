@@ -13,34 +13,34 @@ import com.yangqi.utils.isnull.NullUtil
  */
 class LocalDateTimeFormatUtil {
   // 时间格式为 yyyyMMddHHmmss
-  private var ymdhmsFormat1 = DateTimeFormatter.ofPattern("yyyyMMddHHmmss")
+  private val ymdhmsFormat1 = DateTimeFormatter.ofPattern("yyyyMMddHHmmss")
 
   // 时间格式为 yyyyMMdd HH:mm:ss
-  private var ymdhmsFormat2 = DateTimeFormatter.ofPattern("yyyyyMMdd HH:mm:ss")
+  private val ymdhmsFormat2 = DateTimeFormatter.ofPattern("yyyyyMMdd HH:mm:ss")
 
   // 时间格式为 yyyy-MM-dd HH:mm:ss
-  private var ymdhmsFormat3 = DateTimeFormatter.ofPattern("yyyyy-MM-dd HH:mm:ss")
+  private val ymdhmsFormat3 = DateTimeFormatter.ofPattern("yyyyy-MM-dd HH:mm:ss")
 
   // 时间格式为 yyyy年MM月dd日 HH时mm分ss秒
-  private var ymdhmsFormat4 = DateTimeFormatter.ofPattern("yyyyy年MM月dd日 HH时mm分ss秒")
+  private val ymdhmsFormat4 = DateTimeFormatter.ofPattern("yyyyy年MM月dd日 HH时mm分ss秒")
 
   // 时间格式为 yyyyMMdd
-  private var ymdFormat1 = DateTimeFormatter.ofPattern("yyyyMMdd")
+  private val ymdFormat1 = DateTimeFormatter.ofPattern("yyyyMMdd")
 
   // 时间格式为 yyyy-MM-dd
-  private var ymdFormat2 = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+  private val ymdFormat2 = DateTimeFormatter.ofPattern("yyyy-MM-dd")
 
   // 时间格式为 yyyy年MM月dd日
-  private var ymdFormat3 = DateTimeFormatter.ofPattern("yyyy年MM月dd日")
+  private val ymdFormat3 = DateTimeFormatter.ofPattern("yyyy年MM月dd日")
 
   // 时间格式为 HHmmss
-  private var hmsFormat1 = DateTimeFormatter.ofPattern("HHmmss")
+  private val hmsFormat1 = DateTimeFormatter.ofPattern("HHmmss")
 
   // 时间格式为 HH:mm:ss
-  private var hmsFormat2 = DateTimeFormatter.ofPattern("HH:mm:ss")
+  private val hmsFormat2 = DateTimeFormatter.ofPattern("HH:mm:ss")
 
   // 时间格式为 HH时mm分ss秒
-  private var hmsFormat3 = DateTimeFormatter.ofPattern("HH时mm分ss秒")
+  private val hmsFormat3 = DateTimeFormatter.ofPattern("HH时mm分ss秒")
 
   /**
    * LocalDateTime parse to your format string.
