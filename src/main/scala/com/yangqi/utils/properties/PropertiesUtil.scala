@@ -16,7 +16,7 @@ class PropertiesUtil {
    * 通过配置文件名获取配置文件中 key 对应的 value 值
    *
    * @param key       key
-   * @param propName 配置文件名
+   * @param propName  配置文件名
    * @return value
    */
   def getStringByKey(key: String, propName: String): String = {
@@ -34,7 +34,7 @@ class PropertiesUtil {
   /**
    * 加载配置文件
    *
-   * @param propName 配置文件名称
+   * @param propName    配置文件名称
    * @return Properties 对象
    */
   def getProperties(propName: String): Properties = {
