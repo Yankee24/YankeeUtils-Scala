@@ -19,7 +19,20 @@ class NullUtil {
    * @return the boolean
    */
   def isNull(any: Any): Boolean = {
-    any == null || "".equals(any.toString().trim())
+    any == null || "".equals(any.toString.trim())
+  }
+
+  /**
+   * Is not null boolean.
+   *
+   * @param any the any
+   * @return the boolean
+   */
+  def isNotNull(any: Any): Boolean = {
+    if (any != null || !"".equals(any.toString.trim())) {
+      return true
+    }
+    false
   }
 }
 
