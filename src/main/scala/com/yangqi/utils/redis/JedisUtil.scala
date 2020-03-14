@@ -14,7 +14,7 @@ import redis.clients.jedis.{HostAndPort, Jedis, JedisCluster, JedisPoolConfig}
  * @date 2020/3/13 14:17
  */
 class JedisUtil {
-  // Jedis
+  // Jedis 对象
   private var jedis: Jedis = _
   // 解析配置文件
   private val prop: Properties = PropertiesUtil.getProperties("redis.properties")
